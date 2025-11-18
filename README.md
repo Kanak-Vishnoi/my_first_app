@@ -20,9 +20,7 @@ SecurePass is a two-step authentication system built using **Flutter**, **Fireba
 |--------------|---------------|
 | ![Login](assets/screens/Login.png) | ![Signup](assets/screens/Signup.png) |
 
-| OTP Verification |
-|------------------|
-| ![OTP](assets/screens/Otpscreen.png) | 
+
 
 > Place these images in your repo under `assets/screens/` folder.
 
