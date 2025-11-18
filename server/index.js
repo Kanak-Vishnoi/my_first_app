@@ -16,7 +16,7 @@ const transporter = nodemailer.createTransport({
 app.post("/send-otp", async (req,res) =>{
     const {email, otp} = req.body;
     const mailOptions = {
-        from: '"SecurePass" <codesavvy2@gmail.com>"',
+        from: '"SecurePass" <kanakvishnoi9@gmail.com>"',
         to: email,
         subject: "Your otp code",
         text: `Your OTP code is: ${otp}. It will expire in 5 minutes.`,
